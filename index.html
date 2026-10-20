@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>My Magic Box</title>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+         body{
+            background: linear-gradient(135deg, #ffbbe8, #ffdef7);
+            text-align: center;
+         }
+         .text{
+            margin: 80px;
+            font-weight: 700;
+         }
+         .box{
+            background-color: rgb(99, 164, 255);
+            width: 150px;
+            height: 110px;
+            border-radius: 20px;
+            margin: auto;
+            padding: 20px;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+         }
+         .buttons{
+            padding: 10px;
+         }
+         .change{
+            border-radius: 90px;
+            background-color: red;
+            box-shadow: 5px 10px 15px rgb(178, 178, 178);
+         }
+         .btn{
+            height: 40px;
+            width: auto;
+            margin-left: 6px;
+         }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text">My Magic Box</h1>
+            <div class="box">Hello hero coder!</div><br>
+            <div class="buttons">
+                <button class="btn btn-info" id="bigger">Bigger</button>
+                <button class="btn btn-warning" id="smaller">Smaller</button>
+                <button class="btn btn-default" id="color">Change Color</button>
+                <button class="btn btn-primary" id="style">Change Style</button>
+            </div><hr>
+            <input type="text" placeholder="Enter your name" class="form-control" id="input"><br>
+            <div class="buttons">
+                <button class="btn btn-warning" id="text">Change Text</button>
+                <button class="btn btn-success" id="item">Add item</button>
+                <button class="btn btn-danger" id="delet">Delete items</button>
+            </div><br>
+                <div id="addstar">
+                    <div id="star"><h4>Star</h4></div>
+                </div>
+                <p>Let's play!</p>
+        </div>
+    </body>
+    <script src="My Magic Box.js"></script>
+</html>
